@@ -6,4 +6,4 @@
     --manifest=krew.yaml --archive=krew.tar.gz
 )
 echo 'export PATH="$HOME/.krew/bin:$PATH"' >> ~/.bash_profile
-kubectl krew install --manifest 
+kubectl krew install --manifest=./podstail/podstail.yaml

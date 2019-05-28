@@ -1,0 +1,1 @@
+This is a copy of https://github.com/ahmetb/kubectl-extras/tree/master/mtail, just added support for namespaces and containers.
