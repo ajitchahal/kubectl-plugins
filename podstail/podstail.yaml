@@ -5,9 +5,9 @@ metadata:
 spec:
   platforms:
   - sha256: 9763479d86577f30a20cac00378ff57b9a41ff212371db517589753f2e29c44b
-    uri: https://github.com/not-existing-file.tar.gz
+    uri: https://github.com/ajitchahal/kubectl-plugins/raw/master/plugins.tar.gz
     files:
-    - from: "/*/podstail/*"
+    - from: ""
       to: "."
     bin: podstail.sh
     selector:
