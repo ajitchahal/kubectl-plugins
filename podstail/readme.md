@@ -1,1 +1,4 @@
-This is a copy of https://github.com/ahmetb/kubectl-extras/tree/master/mtail, just added support for namespaces and containers.
+Tails logs of all pods.
+ Examples
+    $ kubectl plugin mtail app=web,tier=frontend
+    $ kubectl plugin mtail app=web,tier=frontend -n my-namespace my-container
