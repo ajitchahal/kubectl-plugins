@@ -4,7 +4,7 @@ metadata:
   name: podstail
 spec:
   platforms:
-  - sha256: 51d53466c6129e65e07246975d4ceb99e07ebf4eae2a2c4f06d4b1a96186d2c4
+  - sha256: e003856a3a12bb21f7510ac7132d289e1ebdd9fad450dc13f734e8d9fcb05d27
     uri: https://github.com/ajitchahal/kubectl-plugins/raw/master/plugins.tar.gz
     files:
     - from: "podstail/*"
