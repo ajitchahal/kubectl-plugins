@@ -18,5 +18,5 @@ spec:
   shortDescription: Tail logs from multiple pods matching label selector, namespace and container.
   caveats: |
     Examples
-    $ kubectl plugin mtail app=web,tier=frontend
-    $ kubectl plugin mtail app=web,tier=frontend -n my-namespace my-container
+    $ kubectl podstail app=web,tier=frontend
+    $ kubectl mtail app=web,tier=frontend -n my-namespace my-container
